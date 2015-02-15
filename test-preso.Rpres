@@ -1,0 +1,29 @@
+test-preso
+========================================================
+author: Alex
+date: `r date()`
+transition: rotate
+
+First Slide
+========================================================
+
+For more details on authoring R presentations click the
+**Help** button on the toolbar.
+
+- Hello!
+- World!
+- Bullet 3
+
+Slide With Code
+========================================================
+
+```{r}
+summary(cars)
+```
+
+Slide With Plot
+========================================================
+
+```{r, echo=FALSE}
+plot(cars)
+```
